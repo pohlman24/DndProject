@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 1%;
+    top: 2%;
+    z-index: 1;
+    
+}
+#container{
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+}
+.players{
+    position: relative;
+    background-color: #c6d7eb;
+    width: 25%;
+    min-width: 25em;
+    height: 17%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* justify-content: center;
+    align-content: center; */
+    border: 1px black solid;
+    z-index:1;
+    cursor: grab;
+    background-image: linear-gradient(-90deg, #FDD20EFF,#F93822FF);
+}
+
